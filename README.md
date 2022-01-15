@@ -5,7 +5,7 @@
   The full FPSOmics documentation is available in the package. To reach the user’s Guide, install the FPSOmics package and load it into an R session by library (FPSOmics). And they can get help by help (FPS), help (FPSsurvival), help (FPSmultiOmicsSig) and help (FPSmultiOmicsSigEnrich) to see documentation of each function. Also description of each function is including in docs/FPSOmics_0.1.0.pdf.
 
 ## 2. Installation and requirement
-Before installing FPSOmics, please properly install all dependencies
+Make sure that you have R 3.6 already installed on your computer. Before installing FPSOmics, please properly install all dependencies
 ```{r echo = TRUE}
 #library(magrittr)
 #library(survival)
