@@ -4,12 +4,12 @@
 \alias{FPSmultiOmicsSig}
 \title{Calculation of ferroptosis-associated molecular signatures}
 \usage{
-FPSmultiOmicsSig(input_Clinical, input_FPS_score, input_omics)
+FPSmultiOmicsSig(input_Clinical, input_FPS_group, input_omics)
 }
 \arguments{
-\item{input_Clinical}{data.frame of the clinical information, the column of barcode is samples and the rest column is each clinical feature(For continuous variables, the name could be age_continuous; For discrete variables, the name could be gender_discrete)}
+\item{input_Clinical}{data.frame of the clinical information, the column of barcode is samples and the rest column is each clinical feature (For continuous variables, the name could be age_continuous; For discrete variables, the name could be gender_discrete)}
 
-\item{input_FPS_score}{ferroptosis score result from FPS function}
+\item{input_FPS_group}{data.frame of high and low group information divided by median ferroptosis score, the column of barcode is samples and the column of myclusters is high and low group information divided by median ferroptosis score}
 
 \item{input_omics}{molecular matrix (rownames of the variable must be molecular symbol, each column is a sample)}
 }
