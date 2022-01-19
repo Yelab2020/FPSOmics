@@ -68,7 +68,7 @@ A propensity score matching (PSM) algorithm[3], which appropriately control the 
 ```{r}
 print('FPS-multiOmics')
 data(m3_input_Clinical,package='FPSOmics') #load clinical information
-data(m3_input_FPS_score,package='FPSOmics') #load ferroptosis score (FPS) result
+data(m3_input_FPS_score,package='FPSOmics') #load ferroptosis score (FPS) group result
 data(m3_input_mRNA,package='FPSOmics') #load omics data for mRNA
 PSM_result=FPSOmics::FPSmultiOmicsSig(m3_input_Clinical,m3_input_FPS_score,m3_input_mRNA)
 ```
