@@ -4,6 +4,8 @@
  FPSOmics designed a novel score model based on ferroptosis-related genes(FRGs)[1] using single sample gene set enrichment analysis (ssGSEA)[2]. This package also include a propensity score matching (PSM) algorithm[3], which appropriately control the effects of clinical confounding factors, to calculate ferroptosis-associated molecular signatures.
   The full FPSOmics documentation is available in the package. To reach the user’s Guide, install the FPSOmics package and load it into an R session by library (FPSOmics). And they can get help by help (FPS), help (FPSsurvival), help (FPSmultiOmicsSig) and help (FPSmultiOmicsSigEnrich) to see documentation of each function. Also description of each function is including in docs/FPSOmics_0.1.0.pdf.
 
+![Alt text](https://github.com/Yelab2020/FPSOmics/blob/main/pic/%E7%BB%84%E5%AD%A6.jpg)
+
 ## 2. Installation and requirement
 Make sure that you have R 3.6 already installed on your computer. Before installing FPSOmics, please properly install all dependencies
 ```{r echo = TRUE}
